@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <link rel="stylesheet" href="css/tailwind.min.css"> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/tailwind.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"> -->
     <title>Kehinde Santos || Brand Identity Designer and Digital Marketer</title>
     <link rel="shortcut icon" href="./img/Kehinde icon.png" type="image/x-icon">
@@ -23,7 +23,7 @@
 
         .bg-header {
             background: radial-gradient(#070056, #000);
-            height: 100vh;
+            height: 94vh;
             width: 100%;
         }
 
@@ -96,12 +96,14 @@
                     <!-- Primary Navbar items -->
                     <div class="hidden md:flex items-center space-x-1 ml-10">
                         <a href="" class="py-4 px-7 text-yellow border-b-4 border-yellow font-semibold">Home</a>
-                        <a href=""
+                        <a href="#about"
                             class="py-4 px-7 text-gray-500 font-semibold text-orange-hover transition duration-300">About</a>
                         <a href=""
                             class="py-4 px-7 text-gray-500 font-semibold text-orange-hover transition duration-300">Services</a>
                         <a href=""
-                            class="py-4 px-7 text-gray-500 font-semibold text-orange-hover transition duration-300">Portfolio</a>
+                            class="py-4 px-7 text-gray-500 font-semibold text-orange-hover transition duration-300">Courses</a>
+                        <a href=""
+                            class="py-4 px-7 text-gray-500 font-semibold text-orange-hover transition duration-300">Testimonials</a>
                         <a href=""
                             class="py-4 px-7 text-gray-500 font-semibold text-orange-hover transition duration-300">Contact</a>
                     </div>
@@ -127,8 +129,10 @@
                 </li>
                 <li><a href="#services"
                         class="block text-sm px-2 py-4 bg-yellow-hover transition duration-300">Services</a></li>
+                <li><a href="#services"
+                        class="block text-sm px-2 py-4 bg-yellow-hover transition duration-300">Courses</a></li>
                 <li><a href="#portfolio"
-                        class="block text-sm px-2 py-4 bg-yellow-hover transition duration-300">Portfolio</a></li>
+                        class="block text-sm px-2 py-4 bg-yellow-hover transition duration-300">Testimonials</a></li>
                 <li><a href="#contact" class="block text-sm px-2 py-4 bg-yellow-hover transition duration-300">Contact
                         Us</a></li>
             </ul>
@@ -144,32 +148,43 @@
     </nav>
     <header>
         <div class="bg-header m-0 md:px-36 px-16">
-            <div class="relative">
+            <div class="flex justify-between">
                 <div>
                     <div class="pt-24 text-white text-5xl font-bold leading-10 capitalise">Get a <span
-                            class="text-orange uppercase">FREE</span><br>Brand Consultation <br> Session
+                            class="text-orange uppercase">FREE</span><br>Brand Consultation
                     </div>
                     <button
                         class="capitalise block mt-3 px-6 pb-2 pt-1 items-center bg-orange text-white text-2xl rounded-full transition duration-150 ease-in-out  button">Start
                         Now</button>
 
                     <div class="mt-24">
-                        <p class="text-white leading tracker-wider">Hey! I'm Kehinde Santos <br>Brand identity designer
-                            and Digital Marketer</p>
-                        <button
+                        <p class="text-white leading tracker-widest"><span class="font-bold">Kehinde Santos </span>
+                            <br><span>Brand Identity designer
+                                and Digital Skills Trainer</span></p>
+                        <!-- <button
                             class="block mt-3 px-6 py-2 items-center bg-gray-300 text-black text-base rounded-full transition duration-150 ease-in-out">About
-                            me</button>
+                            me</button> -->
                     </div>
                 </div>
-                <div class="absolute right-2 top-10 h-16 hidden md:block">
-                    <img src="./img/Kehinde 1.png" style="height: 94vh;" alt="brand identity designer- Kehinde Santos" srcset="">
+                <div class="flex-1 w-64 h-16">
+                    <img src="./img/Kehinde 1.png" style="height: 94vh;" alt="brand identity designer-Kehinde Santos">
                 </div>
             </div>
         </div>
     </header>
     <main>
         <section id="about">
-            
+            <div class="md:flex">
+                <div class="md:flex-auto md:w-32">
+                    <img src="./img/Kehinde 4.png" alt="Kehinde Santos - Graphic designer profile picture">
+                </div>
+                <div class="md:flex-auto md:w-32 p-12">
+                    <h2 class="whitespace-nowrap leading-normal text-2xl md:text-8xl tracking-widest font-extrabold text-center">About me</h2>
+                    <p class="font-bold text-2xl pt-10">I've worked in the fields of marketing, branding and design for over 5 years, with large, established firms and studios. I learnt a lot from them but decided to fly solo by establishing my own consultancy.</p>
+                    <p class="font-bold text-2xl pt-10">This is my way of bridging the gaps I saw in the industry, and of bringing a distinctive and personalised approach to the science and art of branding</p>
+                    <button class="capitalise block mt-10 px-6 pb-2 pt-1 items-center bg-orange text-white text-2xl rounded-full transition duration-150 ease-in-out  button">Work with me</button>
+                </div>
+            </div>
         </section>
     </main>
 </body>
